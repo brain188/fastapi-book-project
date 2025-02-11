@@ -38,7 +38,7 @@ fastapi-book-project/
 
 ## Technologies Used
 
-- Python 3.12
+- Python 3.13
 - FastAPI
 - Pydantic
 - pytest
@@ -49,7 +49,7 @@ fastapi-book-project/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/hng12-devbotops/fastapi-book-project.git
+git clone https://github.com/brain188/fastapi-book-project.git
 cd fastapi-book-project
 ```
 
@@ -71,13 +71,19 @@ pip install -r requirements.txt
 1. Start the server:
 
 ```bash
-uvicorn main:app
+uvicorn main:app 
 ```
 
 2. Access the API documentation:
 
 - Swagger UI: http://localhost:8000/docs
 - ReDoc: http://localhost:8000/redoc
+
+## Deployed API
+
+The API is publicly accessible at:
+
+🔗 **[FastAPI Book API](https://fastapi-book-project-uu1d.onrender.com)**
 
 ## API Endpoints
 
@@ -129,6 +135,14 @@ The API includes proper error handling for:
 - Invalid genre types
 - Malformed requests
 
+## Running Locally
+
+To run the API locally:
+
+```bash
+uvicorn main:app 
+```
+
 ## Contributing
 
 1. Fork the repository
@@ -137,10 +151,4 @@ The API includes proper error handling for:
 4. Push to branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Support
-
-For support, please open an issue in the GitHub repository.
